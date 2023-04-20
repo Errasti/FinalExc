@@ -12,6 +12,9 @@ public class Main {
         generateLine();
     }
 
+    /**
+     * Метод записывающий сгенерированную строку в файл. Ввод доступен только на латинице.
+     */
     public static void generateLine(){
         String path;
         String[] input = null;
@@ -76,6 +79,9 @@ public class Main {
 
 }
 
+/**
+ * Собственные классы исключений
+ */
 class MyArraySizeException extends Exception{
 
     public static final int correctSize = 6;
